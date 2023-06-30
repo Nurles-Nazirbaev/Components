@@ -40,6 +40,8 @@ function App() {
         <Render nav={el.href} site={el.web} userName={el.name} dateToday={el.date} userAge={el.age} userImage={el.image} key={el.id}/>
       )
      })}
+     <h1>Nurles</h1>
+     <h1>hello</h1>
     </div>
   );
 }
